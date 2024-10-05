@@ -8,7 +8,7 @@ if (sessionStorage.getItem("refreshed") === null) {
 
   var randomImage1 = "dice" + randomNumber1 + ".png"; // dice1.png to dice6.png
 
-  var randomImagePath1 = "Images/" + randomImage1; // Images/dice1.png to Images/dice6.png
+  var randomImagePath1 = "images/" + randomImage1; // Images/dice1.png to Images/dice6.png
 
   document.querySelectorAll("img")[0].setAttribute("src", randomImagePath1 );
 
@@ -17,7 +17,7 @@ if (sessionStorage.getItem("refreshed") === null) {
 
   var randomImage2 = "dice" + randomNumber2 + ".png";
 
-  var randomImagePath2 = "Images/" + randomImage2;
+  var randomImagePath2 = "images/" + randomImage2;
 
   document.querySelectorAll("img")[1].setAttribute("src", randomImagePath2 );
 
